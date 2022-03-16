@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "Learning Typescript by making a Blockchain with it",
   "main": "index.js",
-  "repository": "https://github.com/nomadcoders/typechain",
-  "author": "Nicolás Serrano Arévalo <itnico.las.me@gmail.com>",
-  "license": "MIT"
+  "repository": "https://github.com/gustlrtbvj/TYPECHAIN",
+  "author": "Kim Hyun Sik <gustlrtbvj@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.6.2"
+  }
 }
